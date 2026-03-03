@@ -185,3 +185,20 @@
 .control-btn .active{
     background: blue;
 }
+
+
+
+@media screen and (min-width:200px) and (max-width:575px){
+
+    .product{
+        padding:0  10px;
+        margin-top: 50px;
+        flex-direction: column;
+
+    }
+
+    .details{
+        margin: 30px 0;
+    }
+
+}
