@@ -23,8 +23,8 @@
 
 .gallery{
     flex-basis: 47%;
-    background-color: aquamarine;
     transform: scale(1.08) ;
+    position: relative;
 }
 
 .gallery img{
@@ -165,4 +165,23 @@
     cursor: pointer;
     border-radius: 25px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.control-btn{
+    position: absolute;
+    bottom: 35px;
+    right: 20px;
+}
+
+.control-btn .btn{
+    display: block;
+    background: #555;
+    width: 13px;
+    height: 13px;
+    margin: 10px 0;
+    border-radius: 50%;
+}
+
+.control-btn .active{
+    background: blue;
 }
